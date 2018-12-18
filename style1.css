@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    padding:0;
+    position: relative;
+ box-sizing:border-box;
+}
+h1 p{
+    margin: 0;
+    padding: 0;
+}
+.introim
+{
+    width: 400px;
+    height: 350px;
+    position: relative;
+    padding: 100px;
+    display: inline-block;
+    background: green;
+}
+.ul
+{
+    background: green;
+}
+.bu
+{
+    background: #ffff44;
+}
+.video{
+    position: relative;
+    z-index: -2;
+   display: block;
+   width: 100vw;
+}
+.button{
+    position: absolute;
+    top:45vh;
+    left: 45vw;
+    display: block;
+    z-index: 1000;
+}
+.clmt
+{
+    text-size-adjust: 1px;
+}
+ul,li, a{
+    font-weight: bolder !important;
+    opacity: 1 !important;
+}
